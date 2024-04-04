@@ -1,0 +1,52 @@
+{
+    "pdf": {
+        "pageNumbers": true,
+        "fontFamily": "Arial",
+        "fontSize": 18,
+        "paperSize": "a4",
+        "margin": {
+            "right": 0,
+            "left": 0,
+            "top": 0,
+            "bottom": 0
+        }
+    },
+    "epub": {
+        "pageNumbers": true,
+        "fontFamily": "Arial",
+        "fontSize": 18,
+        "paperSize": "a4",
+        "margin": {
+            "right": 0,
+            "left": 0,
+            "top": 0,
+            "bottom": 0
+        }
+    },
+    "title": "FFmpeg原理",
+    "author": "罗上文",
+    "description": "本书会用大量章节来分析 ffmpeg.c 里面的内部逻辑，让读者能从 整体上 理解 FFmpeg API 的使用",
+	"language" : "zh-hans",
+    "plugins": [
+       "tbfed-pagefooter","katex","sitemap","easyseo-7dtime","chapter-fold","flexible-alerts"
+    ],
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "pluginsConfig": {
+        "code": {
+            "copyButtons": true
+        },
+        "tbfed-pagefooter": {
+            "copyright":"版权所属 xianwanzhiyin.net 罗上文 2024",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sitemap" : {
+            "hostname": "https://ffmpeg.xianwaizhiyin.net"
+        },
+		"chapter-fold":{
+		}
+	}
+
+}
