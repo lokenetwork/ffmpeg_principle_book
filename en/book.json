@@ -1,0 +1,55 @@
+{
+    "pdf": {
+        "pageNumbers": true,
+        "fontFamily": "Arial",
+        "fontSize": 18,
+        "paperSize": "a4",
+        "margin": {
+            "right": 0,
+            "left": 0,
+            "top": 0,
+            "bottom": 0
+        }
+    },
+    "epub": {
+        "pageNumbers": true,
+        "fontFamily": "Arial",
+        "fontSize": 18,
+        "paperSize": "a4",
+        "margin": {
+        "right": 0,
+        "left": 0,
+        "top": 0,
+        "bottom": 0
+        }
+    },
+    "title": "Principles of FFmpeg",
+    "author": "Luo Shangwen",
+    "description": "This book will thoroughly analyze ffmpeg.c internals across multiple chapters, helping readers grasp the holistic usage of the FFmpeg API.  ",
+    "language": "en-us",
+    "plugins": [
+        "tbfed-pagefooter",
+        "katex",
+        "sitemap",
+        "easyseo-7dtime",
+        "chapter-fold",
+        "flexible-alerts",
+        "theme-comscore",
+        "prism"
+    ],
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": "Copyright belongs to ffmpeg.xianwanzhiyin.netLuo Shangwen 2024",
+            "modify_label": "The revision date of this file：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sitemap": {
+            "hostname": "https://ffmpeg.xianwaizhiyin.net"
+        },
+        "chapter-fold": {
+        }
+    }
+}
