@@ -1,78 +1,106 @@
-# 推荐序与读者好评
+# Recommendations and Reader Reviews
+
+<div id="meta-description---"> Recommendations - FFmpeg Principles</div>
 
 <div id="no_ads">
 </div>
 <div id="no_author">
 </div>
+<br>
+<br>
 
+This book is the most comprehensive and insightful resource available on FFmpeg audio and video engineering development. It covers the compilation process, operating principles, and APIs in an all-encompassing manner, making it suitable for developers at all stages of their audio and video development journey. The book is well-structured, clear in its explanations, and uses engaging language without being overly technical. It's an excellent resource for both beginners and experienced developers. Novices can gain a comprehensive understanding of FFmpeg through this book, while experts can use it to fill in any gaps in their knowledge and deepen their understanding.
 
-<div id="meta-description---">推荐序 - FFmpeg原理</div>
-
-本书是有关于 FFmpeg 音视频工程开发中内容最全面，原理解释最通透的书。这本书从编译过程、运行原理、API全方位地进行了诠释，适用于对于音视频开发各个阶段的开发者研读和学习，整本书脉络分明、思路清晰，语言生动不晦涩，深入浅出，对新手非常友好。新手从本书可以一本通至熟手，高手也能从本书中查漏补缺，获益匪浅。对每个阶段的开发者均有良好助益。 — 梁正
-
----
-
-就内容而言，市面上是没有这样一本书的，我一般都是地铁上看，争取年底跟上作者进度吧。希望早日出书，罗哥也是榜样 ，希望我这个年龄时也能保持学习和对技术的热爱，罗哥这样的分享者很能鼓励人。
-
-—燕庆伟@[音视频领域新星创作者](https://blog.csdn.net/weixin_43466192?type=blog)
+— **Liang Zheng**
 
 ---
 
-准备秋招的时候，花了一个月多月的时间一步步的跟着罗哥的《FFmpeg原理》学习代码，期间罗哥还提供了很多的帮助，秋招也拿到了自己比较满意的offer，罗哥的《FFmpeg原理》真的十分值得各位花时间去学习！ — 风宝
+In terms of content, there is no other book like this on the market. I usually read it on the subway, trying to catch up with the author's progress by the end of the year. I hope it will be published soon. Luo Ge is an inspiration, and I hope I can maintain the same passion for learning and technology at his age. Sharing individuals like Luo Ge are truly encouraging.
+
+— **Yan Qingwei** [New creator @Video Star](https://blog.csdn.net/weixin_43466192?type=blog)
 
 ---
 
-看过 FFmpeg 原理的几篇文章，受益匪浅，FFmpeg 原理已经是我后续学习 FFmpeg源码 的指导书，感谢罗哥写出这样优秀的文章。 — 吴飞
+When I was preparing for the autumn recruitment season, I spent more than a month learning the code step-by-step with Luo Ge's "FFmpeg Principles." During this time, Luo Ge provided a lot of help, and I also received offers that I was quite satisfied with. Luo Ge's "FFmpeg Principles" is truly worth everyone's time to study!
+
+— **Feng Bao**
 
 ---
 
-罗老师的 FFmpeg 代码解析得很详细，最近也在看 FFmpeg 转码器的内部实现，受益匪浅。 — 梧桐树下
+I have read several articles from "FFmpeg Principles" and have benefited greatly. It has become my guidebook for further study of FFmpeg source code. I am grateful to Luo Ge for writing such an excellent resource.
+
+— **Wu Fei**
 
 ---
 
-给这本书一个好评，内容、代码和截图都力争上游，可谓是 FFmpeg 学习者的良师益友。 小小的建议是可以在每一章内容下面开放评论，读者之间的探讨或许更能促进思维的碰撞。 — 重庆网友
+Luo Laoshi's analysis of the FFmpeg code is very detailed. I am currently studying the internal implementation of the FFmpeg transcoder and have learned a lot.
+
+— **Wūtóng shù xià**
 
 ---
 
-罗老师写的这版对 api 分析的很详细，可以当成一本工具书，必要的时候来翻翻，比光看源码好理解多了，点赞，罗老师继续努力，期待实体书。 — 熊猫ben
+This book deserves high praise. The content, code, and screenshots are all top-notch, making it an invaluable resource for FFmpeg learners. A small suggestion would be to enable comments below each chapter. Discussions among readers could further stimulate the exchange of ideas.
+
+— **Chongqing netizen**
 
 ---
 
-本书从音视频基础入手，由浅及深，过程比较柔和，细节讲解的也比较到位。其中的实操部分也能提升动手能力。对于像我这样的新手入门，很有帮助。 — 杜杜杜
+Luo Laoshi's book provides a very detailed analysis of the API and can be used as a reference book. It's much easier to understand than just reading the source code. Kudos, Luo Laoshi! Keep up the good work, and I look forward to the physical book.
+
+— **Panda Ben**
 
 ---
 
-[2/3] 不错，图文并茂，我读了个开头，感觉非常好。小电影看得多了，经常有转码需求，也该学点儿相关知识了，艺多不压身嘛。 — 田春冰河
+This book starts with the basics of audio and video, gradually progressing to more advanced topics. The process is gentle, and the details are well-explained. The practical exercises also help improve hands-on skills. It's very helpful for beginners like me.
+
+— **Du Du Du**
 
 ---
 
-《FFmpeg原理》深入浅出，内容翔实到位，非常值得开发者阅读学习。 — Ryo@深圳形胜科贸
+Excellent, with rich illustrations and text. I've read the beginning, and it feels fantastic. Having watched a lot of movies, I often need to transcode videos. It's time to learn some relevant knowledge; the more skills, the better.
+
+— **Tian Chun Binghe**
 
 ---
 
-《FFmpeg原理》这本书是一本非常全面的FFmpeg指南，它涵盖了从基础知识到高级主题的各个方面。作者非常详细地讲解了 FFmpeg 的各个组件、数据结构和算法，帮助读者了解FFmpeg的内部工作原理。同时，他还提供了大量实用的示例代码和命令行参数，帮助读者快速学习如何使用 FFmpeg 处理音频和视频文件。
+"FFmpeg Principles" explains things clearly and comprehensively, making it very valuable for developers.
 
-除了基础知识，这本书还涵盖了许多高级主题，例如流媒体传输、视频编解码、音频处理、视频处理等。这些主题都是非常实用的，可以帮助读者更好地应用 FFmpeg 解决实际问题。
-
-总的来说，我认为这本书非常值得一读。它提供了足够的知识和实用技巧，能够帮助初学者快速入门，同时也能让已经熟悉FFmpeg的人深入了解其内部工作原理和高级用法。如果你想深入学习和应用 FFmpeg，这本书是一个非常好的选择。—大斌
+— **Ryo** @Shenzhen Xingsheng Technology and Trade
 
 ---
 
-《FFmpeg原理》一书，内容从编译调试到代码注解和内部原理解释，可谓非常流畅，对于入门音视频的同学是个很好的帮助。— [OkEDU项目](https://gitee.com/chuanshantech/ok-edu-classroom-desktop)作者 高杰
+"FFmpeg Principles" is a comprehensive FFmpeg guide that covers everything from basic knowledge to advanced topics. The author explains the various components, data structures, and algorithms of FFmpeg in great detail, helping readers understand how FFmpeg works internally. He also provides numerous practical examples of code and command-line arguments to help readers quickly learn how to use FFmpeg to process audio and video files.
+
+In addition to basic knowledge, the book covers many advanced topics, such as streaming media transmission, video codecs, audio processing, and video processing. These topics are all very practical and can help readers better apply FFmpeg to solve real-world problems.
+
+Overall, I think this book is well worth reading. It provides enough knowledge and practical skills to help beginners get started quickly, while also allowing those already familiar with FFmpeg to gain a deeper understanding of its internal workings and advanced usage. If you want to learn and apply FFmpeg in depth, this book is a great choice.
+
+— **Da Bin**
 
 ---
 
-作者理解深入骨髓，非常赞。— 广州网友
+"FFmpeg Principles" is a book that covers everything from compilation and debugging to code annotations and internal principle explanations. The flow is excellent, and it's a great help for those who are new to audio and video development.
+
+— **Gao Jie**, [author of the OkEDU project](https://gitee.com/chuanshantech/ok-edu-classroom-desktop)
 
 ---
 
-历害，加油。 — 江苏网友
+The author's understanding is profound. Very impressive.
+
+— **Guangzhou netizen**
 
 ---
 
-大佬牛的，写的很全面。— 长沙网友
+Amazing, keep it up!
+
+— **Jiangsu netizen**
 
 ---
 
-还有朋友希望给本书写好评或者推荐序，可以加我微信 Loken1 。
+You're awesome, this is very comprehensive.
 
+— **Changsha netizen**
+
+---
+
+If you'd like to write a review or recommendation for this book, you can add me on WeChat: Loken1.
