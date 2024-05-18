@@ -1,12 +1,12 @@
-# Introduction to FFmpeg Principles
+# Introduction to FFmpeg Principle
 <div id="no_ads"></div>
 
-<div id="meta-description---">The book "Principles of FFmpeg" primarily explores the theoretical foundations of FFmpeg. It begins with chapters on the fundamentals of audio and video development, as well as streaming media technology. Later chapters delve into the setup of various debugging environments for FFmpeg and offer practical examples of using FFmpeg API functions. A key focus is the in-depth analysis of the source code logic of ffmpeg.c and ffplay.c.</div>
+<div id="meta-description---">The book "Principle of FFmpeg" primarily explores the theoretical foundations of FFmpeg. It begins with chapters on the fundamentals of audio and video development, as well as streaming media technology. Later chapters delve into the setup of various debugging environments for FFmpeg and offer practical examples of using FFmpeg API functions. A key focus is the in-depth analysis of the source code logic of ffmpeg.c and ffplay.c.</div>
 
 ![Cover](./img/cover.jpg)
 *Created via postermywall*
 
-This book **"Principles of FFmpeg"** mainly explains the theoretical knowledge of FFmpeg. The first few chapters mainly cover some basic knowledge of audio and video development, such as raw data YUV and RGB, encapsulation formats FLV and MP4, basic concepts of compression encoding, and encapsulation format analysis.
+This book **"Principle of FFmpeg"** mainly explains the theoretical knowledge of FFmpeg. The first few chapters mainly cover some basic knowledge of audio and video development, such as raw data YUV and RGB, encapsulation formats FLV and MP4, basic concepts of compression encoding, and encapsulation format analysis.
 
 The initial chapters are about the basics of audio and video development and streaming media technology. The later chapters mainly explain how to set up various debugging environments for FFmpeg, while also providing examples of using FFmpeg API functions. Most importantly, it analyzes the source code logic of ffmpeg.c and ffplay.c.
 
@@ -40,7 +40,7 @@ For those who have purchased the PDF e-book, you can join the audio and video cl
 
 ---
 
-"The Principles of FFmpeg" is a semi-charitable introductory book on audio and video, with 70% of its content available for free. If you find this content helpful, you can reward me through WeChat.
+"The Principle of FFmpeg" is a semi-charitable introductory book on audio and video, with 70% of its content available for free. If you find this content helpful, you can reward me through WeChat.
 
 <div align=center>
     <img src="img/pay.jpg" style="width:33%"/>

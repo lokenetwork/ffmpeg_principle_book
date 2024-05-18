@@ -1,6 +1,6 @@
 ​# Summary
 
-- **[Introduction to FFmpeg Principles](README.md)**
+- **[Introduction to FFmpeg Principle](README.md)**
 - **[Recommendations and Reader Reviews](good_comment.md)**
 - **[Basic Audio and Video Knowledge](base-knowledge/base-knowledge.md)**: Fundamental concepts related to multimedia:
   - **[RGB Color Space](base-knowledge/raw-rgb.md)**: Explanation of the _RGB_ color model and its components.
@@ -60,7 +60,7 @@
   - **[Breakpoint Debugging with WinDbg](debug-ffmpeg/windbg.md)**
   - **[Introduction to the ShiftMediaProject](debug-ffmpeg/shift-media-project.md)**
   - **[Practical Use of ShiftMediaProject](debug-ffmpeg/shift-media-project2.md)**
-  - **[Basic Knowledge and Principles of Debugging](debug-ffmpeg/debug-principle.md)**
+  - **[Basic Knowledge and Principle of Debugging](debug-ffmpeg/debug-principle.md)**
 - **[FFmpeg Compilation Tutorial - Advanced](compile-ffmpeg/index.md)**: Customizing and extending _FFmpeg_:
   - **[Adding SDL Extension to FFmpeg](compile-ffmpeg/sdl.md)**
   - **[Adding x264 Extension to FFmpeg](compile-ffmpeg/x264.md)**
@@ -236,7 +236,7 @@
   - **[avformat_open_input Opening Input](demuxer/avformat_open_input.md)**
   - **[init_input Initializing Input](demuxer/init_input.md)**
   - **[io_open Opening Input File](demuxer/io_open.md)**
-  - **[AVIOContext Principles](demuxer/avio_principle.md)**
+  - **[AVIOContext Principle](demuxer/avio_principle.md)**
   - **[Commonly Used AVIO Functions](demuxer/avio_function.md)**
   - **[FFmpeg's Endianness Functions](demuxer/bigendian.md)**
   - **[mov_probe Detecting MP4 Format Part 1](demuxer/mov_probe.md)**
@@ -292,7 +292,7 @@
   - **[Introduction to Concat Demuxer](demuxer/concat.md)**
   - **[Concat Demuxer Modification](demuxer/concat_custom.md)**
   - **[How to Create a Custom Demuxer](demuxer/custom.md)**
-- **[Filter Principles](filter/index.md)**: Exploring the world of _FFmpeg_ filters:
+- **[Filter Principle](filter/index.md)**: Exploring the world of _FFmpeg_ filters:
   - **[Overlay Filter Analysis](filter/overlay.md)**
   - **[Chromakey Filter Analysis]()**: _TODO_
   - **[Colorkey Filter Analysis]()**: _TODO_
@@ -301,4 +301,4 @@
   - **[CUDA Filter Analysis](filter/cuda.md)**
 - **[How to Become an FFmpeg Developer](be_contributor.md)**: Contributing to the _FFmpeg_ project.
 - **[Closing Remarks](end.md)**: Final thoughts and conclusions.
-- **[FFmpeg Principles Book Cover](cover.md)**
+- **[FFmpeg Principle Book Cover](cover.md)**

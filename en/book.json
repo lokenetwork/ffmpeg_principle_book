@@ -23,7 +23,7 @@
         "bottom": 0
         }
     },
-    "title": "Principles of FFmpeg",
+    "title": "Principle of FFmpeg",
     "author": "Luo Shangwen",
     "description": "This book will thoroughly analyze ffmpeg.c internals across multiple chapters, helping readers grasp the holistic usage of the FFmpeg API.  ",
     "language": "en-us",

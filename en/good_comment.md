@@ -1,6 +1,6 @@
 # Recommendations and Reader Reviews
 
-<div id="meta-description---"> Recommendations - FFmpeg Principles</div>
+<div id="meta-description---"> Recommendations - FFmpeg Principle</div>
 
 <div id="no_ads">
 </div>
@@ -21,13 +21,13 @@ In terms of content, there is no other book like this on the market. I usually r
 
 ---
 
-When I was preparing for the autumn recruitment season, I spent more than a month learning the code step-by-step with Luo Ge's "FFmpeg Principles." During this time, Luo Ge provided a lot of help, and I also received offers that I was quite satisfied with. Luo Ge's "FFmpeg Principles" is truly worth everyone's time to study!
+When I was preparing for the autumn recruitment season, I spent more than a month learning the code step-by-step with Luo Ge's "FFmpeg Principle." During this time, Luo Ge provided a lot of help, and I also received offers that I was quite satisfied with. Luo Ge's "FFmpeg Principle" is truly worth everyone's time to study!
 
 — **Feng Bao**
 
 ---
 
-I have read several articles from "FFmpeg Principles" and have benefited greatly. It has become my guidebook for further study of FFmpeg source code. I am grateful to Luo Ge for writing such an excellent resource.
+I have read several articles from "FFmpeg Principle" and have benefited greatly. It has become my guidebook for further study of FFmpeg source code. I am grateful to Luo Ge for writing such an excellent resource.
 
 — **Wu Fei**
 
@@ -63,13 +63,13 @@ Excellent, with rich illustrations and text. I've read the beginning, and it fee
 
 ---
 
-"FFmpeg Principles" explains things clearly and comprehensively, making it very valuable for developers.
+"FFmpeg Principle" explains things clearly and comprehensively, making it very valuable for developers.
 
 — **Ryo** @Shenzhen Xingsheng Technology and Trade
 
 ---
 
-"FFmpeg Principles" is a comprehensive FFmpeg guide that covers everything from basic knowledge to advanced topics. The author explains the various components, data structures, and algorithms of FFmpeg in great detail, helping readers understand how FFmpeg works internally. He also provides numerous practical examples of code and command-line arguments to help readers quickly learn how to use FFmpeg to process audio and video files.
+"FFmpeg Principle" is a comprehensive FFmpeg guide that covers everything from basic knowledge to advanced topics. The author explains the various components, data structures, and algorithms of FFmpeg in great detail, helping readers understand how FFmpeg works internally. He also provides numerous practical examples of code and command-line arguments to help readers quickly learn how to use FFmpeg to process audio and video files.
 
 In addition to basic knowledge, the book covers many advanced topics, such as streaming media transmission, video codecs, audio processing, and video processing. These topics are all very practical and can help readers better apply FFmpeg to solve real-world problems.
 
@@ -79,7 +79,7 @@ Overall, I think this book is well worth reading. It provides enough knowledge a
 
 ---
 
-"FFmpeg Principles" is a book that covers everything from compilation and debugging to code annotations and internal principle explanations. The flow is excellent, and it's a great help for those who are new to audio and video development.
+"FFmpeg Principle" is a book that covers everything from compilation and debugging to code annotations and internal principle explanations. The flow is excellent, and it's a great help for those who are new to audio and video development.
 
 — **Gao Jie**, [author of the OkEDU project](https://gitee.com/chuanshantech/ok-edu-classroom-desktop)
 

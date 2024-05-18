@@ -1,9 +1,9 @@
-# Cover - Principles of FFmpeg
+# Cover - Principle of FFmpeg
 
 <div id="no_ads">
 </div>
 
-<div id="meta-description---">Cover - Principles of FFmpeg</div>
+<div id="meta-description---">Cover - Principle of FFmpeg</div>
 
 <img src="./img/cover.jpg" alt="cover" style="zoom:30%;" />
 
