@@ -1,0 +1,15 @@
+# -----------------------------------------------------------------------------
+# author Loken
+# fileEncoding = UTF-8
+# -----------------------------------------------------------------------------
+User-agent: *
+Disallow: /wp-admin/
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: AdsBot-Google
+Disallow:
+
+User-agent: Googlebot-Image
+Disallow:

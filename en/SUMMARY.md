@@ -1,0 +1,305 @@
+​# Summary
+
+- **[Introduction to FFmpeg Principles](README.md)**
+- **[Recommendations and Reader Reviews](good_comment.md)**
+- **[Purchasing the VIP Version of FFmpeg Principles](pdf-buy.md)**
+- **[Basic Audio and Video Knowledge](base-knowledge/base-knowledge.md)**: Fundamental concepts related to multimedia:
+  - **[RGB Color Space](base-knowledge/raw-rgb.md)**: Explanation of the _RGB_ color model and its components.
+  - **[YUV Color Space](base-knowledge/raw-yuv.md)**: Introduction to the _YUV_ color model and its applications in video.
+  - **[RGB and YUV Conversion](base-knowledge/raw-yuv-to-rgb.md)**: Techniques for converting between _RGB_ and _YUV_ color spaces.
+  - **[YUV Data Analysis](base-knowledge/raw-yuv-data.md)**: Exploring the structure and interpretation of _YUV_ data.
+  - **[Introduction to Encoding and Compression](base-knowledge/codec-introduction.md)**: Overview of codecs and compression techniques used in multimedia.
+  - **[Introduction to Container Formats](base-knowledge/mux-introduction.md)**: Explanation of container formats like MP4, FLV, etc., and their role in organizing multimedia data.
+  - **[FLV Container Format](base-knowledge/mux-flv.md)**: Deep dive into the _FLV_ container format.
+  - **[MP4 Container Format](base-knowledge/mux-mp4.md)**: Detailed analysis of the _MP4_ container format.
+  - **[MPEG-TS Container Format](base-knowledge/mux-mpeg-ts.md)**: Explanation of the _MPEG-TS_ container format, often used in broadcast systems.
+  - **[MKV Container Format]()**: _TODO_
+  - **[Summary of Container Formats](todo-base-knowledge/mux-summary.md)**: Overview and comparison of various container formats.
+- **[FFmpeg Basics](base-ffmpeg/base-ffmpeg.md)**: Getting started with _FFmpeg_:
+  - **[FFmpeg Introduction](base-ffmpeg/ffmpeg-introduction.md)**: What is _FFmpeg_ and what are its capabilities.
+  - **[FFmpeg Installation](base-ffmpeg/ffmpeg-install.md)**: Guide on how to install _FFmpeg_ on your system.
+  - **[FFmpeg Container Format Conversion](base-ffmpeg/ffmpeg-mux.md)**: Using _FFmpeg_ to convert between different container formats.
+  - **[FFmpeg Command Parameter Types](base-ffmpeg/ffmpeg-cmd-type.md)**: Understanding the various types of command-line arguments used with _FFmpeg_.
+  - **[FFmpeg Codec Conversion](base-ffmpeg/ffmpeg-codec.md)**: Leveraging _FFmpeg_ for codec transcoding tasks.
+  - **[FFplay Basic Usage](base-ffmpeg/ffplay-usage.md)**: Introduction to _`ffplay`_, a media player included with FFmpeg.
+  - **[FFprobe Basic Usage](base-ffmpeg/ffprobe-usage.md)**: Exploring _`ffprobe`_, a tool for inspecting multimedia streams.
+  - **[Recommended FFmpeg Learning Resources](base-ffmpeg/ffmpeg-recommend.md)**: Additional materials for further study.
+- **[Basic Knowledge of Compilation and Linking](base-compile/intro.md)**: Understanding the build process:
+  - **[Compiling a Single C Program File in Linux](base-compile/linux-c-single.md)**
+  - **[Compiling Multiple C Program Files in Linux](base-compile/linux-c-multiple.md)**
+  - **[Compiling Static Libraries in Linux](base-compile/linux-c-static.md)**
+  - **[Packaging Static Libraries in Linux](base-compile/linux-c-static2.md)**
+  - **[Compiling Dynamic Libraries in Linux](base-compile/linux-c-shared.md)**
+  - **[Explicitly Using Dynamic Libraries in Linux](base-compile/linux-c-shared1.md)**
+  - **[Packaging Static Libraries as Dynamic Libraries in Linux](base-compile/linux-c-shared2.md)**
+  - **[Mixed Use of Static and Dynamic Libraries in Linux](base-compile/linux-c-mix.md)**
+  - **[Introduction to the Windows Compilation Environment](base-compile/windows.md)**
+  - **[Introduction to the MSVC Compilation Environment](base-compile/msvc.md)**
+  - **[Compiling Multiple C Program Files in MSVC](base-compile/msvc-multiple.md)**
+  - **[Compiling Static Libraries in MSVC](base-compile/msvc-static.md)**
+  - **[Quick Start with VS2019](base-compile/vs2019.md)**
+  - **[Packaging Static Libraries in MSVC](base-compile/msvc-static2.md)**
+  - **[Compiling Dynamic Libraries in MSVC](base-compile/msvc-shared.md)**
+  - **[Using Static Libraries in VS2019](base-compile/vs2019-static.md)**
+  - **[Using Dynamic Libraries in VS2019](base-compile/vs2019-shared.md)**
+  - **[Introduction to MinGW](base-compile/mingw-intro.md)**
+  - **[Compiling Static Libraries in MinGW](base-compile/mingw-static.md)**
+  - **[Advantages of MinGW](base-compile/mingw-good.md)**
+  - **[Compiling Dynamic Libraries in MinGW](base-compile/mingw-shared.md)**
+  - **[What is ABI Binary Compatibility?](base-compile/abi.md)**
+- **[MSYS2 from Beginner to Pro](msys2/index.md)**: Mastering the MSYS2 environment:
+  - **[Introduction to MSYS2](msys2/intro.md)**: Overview and features of MSYS2.
+  - **[What is a Package Manager?](msys2/pkg-manage.md)**: Understanding the concept of package management.
+  - **[Introduction to the Pacman Package Manager](msys2/pacman.md)**
+  - **[Source Code Analysis of msys2_shell.cmd](msys2/msys2_shell.md)**: Deep dive into the MSYS2 shell script.
+  - **[Compiling C/C++ Programs with MSYS2](msys2/compile.md)**
+- **[Setting Up FFmpeg Debugging Environment](debug-ffmpeg/debug-ffmpeg.md)**: Tools and techniques for debugging _FFmpeg_:
+  - **[Debugging FFmpeg Source Code with Ubuntu 18 and CLion](debug-ffmpeg/ubuntu18-clion.md)**
+  - **[Compiling FFmpeg with MSYS2 and MinGW](debug-ffmpeg/msys2-mingw.md)**
+  - **[Compiling FFmpeg with MSYS2 and MSVC](debug-ffmpeg/msys2-msvc.md)**
+  - **[Breakpoint Debugging with VsDebug](debug-ffmpeg/vsdebug.md)**
+  - **[Breakpoint Debugging with WinDbg](debug-ffmpeg/windbg.md)**
+  - **[Introduction to the ShiftMediaProject](debug-ffmpeg/shift-media-project.md)**
+  - **[Practical Use of ShiftMediaProject](debug-ffmpeg/shift-media-project2.md)**
+  - **[Basic Knowledge and Principles of Debugging](debug-ffmpeg/debug-principle.md)**
+- **[FFmpeg Compilation Tutorial - Advanced](compile-ffmpeg/index.md)**: Customizing and extending _FFmpeg_:
+  - **[Adding SDL Extension to FFmpeg](compile-ffmpeg/sdl.md)**
+  - **[Adding x264 Extension to FFmpeg](compile-ffmpeg/x264.md)**
+  - **[Adding Text Watermark Extension to FFmpeg](compile-ffmpeg/drawtext.md)**
+  - **[Adding NVIDIA Hardware Codec Extension to FFmpeg](compile-ffmpeg/nvidia.md)**
+  - **[Static Compilation of FFmpeg](compile-ffmpeg/static.md)**
+  - **[How to Trim FFmpeg](compile-ffmpeg/small.md)**
+- **[How to Use FFmpeg's API Library](lib-ffmpeg/index.md)**: Integrating _FFmpeg_ into your projects:
+  - **[Introduction to FFmpeg's API Library](lib-ffmpeg/intro.md)**
+  - **[Using FFmpeg's API Library in Linux](lib-ffmpeg/linux.md)**
+  - **[Using FFmpeg's API Library in VS2019](lib-ffmpeg/vs2019.md)**
+  - **[Introduction to Windows Desktop Development](lib-ffmpeg/windows-desktop.md)**
+  - **[Qt Installation Tutorial](lib-ffmpeg/qt-install.md)**
+  - **[Qt Using FFmpeg's Dynamic Library](lib-ffmpeg/qt-shared.md)**
+  - **[Qt Using FFmpeg's Static Library](lib-ffmpeg/qt-static.md)**
+  - **[Java Project Build Process](lib-ffmpeg/java_build.md)**
+  - **[Java Development Environment Setup](lib-ffmpeg/java_install.md)**
+  - **[Compiling and Running a Single Java File](lib-ffmpeg/java_hello.md)**
+  - **[Compiling and Running Multiple Java Files](lib-ffmpeg/java_many.md)**
+  - **[Using the Spring Framework](lib-ffmpeg/java_spring.md)**
+  - **[Android Project Build Process](lib-ffmpeg/android_build.md)**
+  - **[Using FFmpeg's API Library in Android](lib-ffmpeg/android.md)**
+  - **[Using FFmpeg's API Library on Mac]()**: _TODO_
+  - **[Using FFmpeg's API Library on iOS]()**: _TODO_
+- **[FFmpeg Basic API Tutorial](api-ffmpeg/index.md)**: Working with the _FFmpeg_ API:
+  - **[Opening Input Files with FFmpeg](api-ffmpeg/input.md)**
+  - **[Porting Qt Examples to CLion for Debugging](api-ffmpeg/qt_to_clion.md)**
+  - **[How to Set Demuxer Parameters](api-ffmpeg/demuxer_args.md)**
+  - **[Reading File Contents with AVPacket](api-ffmpeg/avpacket.md)**
+  - **[How to Use FFmpeg's Decoder](api-ffmpeg/decode.md)**
+  - **[How to Use FFmpeg's Encoder](api-ffmpeg/encode.md)**
+  - **[How to Set Encoder Parameters](api-ffmpeg/encode_args.md)**
+  - **[Writing Output Files with FFmpeg](api-ffmpeg/output.md)**
+  - **[FFmpeg's Logging Function: av_log](api-ffmpeg/log.md)**
+  - **[FFmpeg Error Codes](api-ffmpeg/error_code.md)**
+  - **[Detailed Explanation of the AVString String Function Library](api-ffmpeg/avstring.md)**
+- **[FFmpeg Data Structures Explained](api-ffmpeg/data_struct.md)**: Understanding the internal organization of data in _FFmpeg_:
+  - **[AVFrame Explained](api-ffmpeg/avframe.md)**
+  - **[AVOptions Explained](api-ffmpeg/avoptions.md)**
+  - **[AVPixFmtDescriptor Structure](api-ffmpeg/AVPixFmtDescriptor.md)**
+- **[FFmpeg Filter API Tutorial](api-ffmpeg/filter_api.md)**: Utilizing filters for processing multimedia:
+  - **[Introduction to FFmpeg's Scale Filter](api-ffmpeg/scale.md)**
+  - **[Introduction to FFmpeg's Split Filter](api-ffmpeg/split.md)**
+  - **[Introduction to FFmpeg's Overlay Filter](api-ffmpeg/overlay.md)**
+  - **[Introduction to FFmpeg's Video Format Filter](api-ffmpeg/format_filter.md)**
+  - **[Introduction to FFmpeg's Audio AFormat Filter](api-ffmpeg/aformat_filter.md)**
+  - **[Introduction to the sws_scale Image Scaling Function](api-ffmpeg/sws_scale.md)**
+  - **[Introduction to Audio Resampling with swr_convert](api-ffmpeg/swr_convert.md)**
+  - **[How to Adjust Audio Playback Duration](api-ffmpeg/swr_set_compensation.md)**
+- **[FFmpeg Advanced API Tutorial](api-ffmpeg/advance_api.md)**: Deeper exploration of the _FFmpeg_ API:
+  - **[Discarding Audio Streams in FFmpeg](api-ffmpeg/discard_stream.md)**
+  - **[Supported Container Formats in FFmpeg](api-ffmpeg/av_demuxer_iterate.md)**
+  - **[How to Iterate Over Supported Encoder Parameters](api-ffmpeg/av_opt_next.md)**
+  - **[Introduction to the avformat_seek_file Function](api-ffmpeg/avformat_seek_file.md)**
+  - **[Non-blocking AVPacket Reading in FFmpeg](api-ffmpeg/av_read_frame_block.md)**
+  - **[FFmpeg's Interrupt Callback](api-ffmpeg/interrupt_callback.md)**
+  - **[Custom AVIO in FFmpeg](api-ffmpeg/avio.md)**
+  - **[FFmpeg Memory Management](api-ffmpeg/memory.md)**
+  - **[FFmpeg Memory Alignment](api-ffmpeg/mem_align.md)**
+  - **[Detailed Explanation of the FifoBuffer Function Library](api-ffmpeg/avfifobuffer.md)**
+  - **[What is Side Data in FFmpeg?](api-ffmpeg/side_data.md)**
+  - **[FFmpeg's Multithreading API](api-ffmpeg/thread.md)**
+  - **[Commonly Used Functions in FFmpeg](api-ffmpeg/functions.md)**
+- **[Introduction to the Libavutil Library](libavutil/index.md)**: Exploring the utility library of _FFmpeg_:
+  - **[Introduction to Image Utility Functions](libavutil/imgutil.md)**
+- **[FFmpeg Compilation Process Analysis](build-ffmpeg/index.md)**: Understanding the build system of _FFmpeg_:
+  - **[Configure Syntax Summary](build-ffmpeg/configure-syntax.md)**
+  - **[Configure Function Analysis Chapter A](build-ffmpeg/configure-function.md)**
+  - **[Configure Function Analysis Chapter E](build-ffmpeg/configure-function6.md)**
+  - **[Configure Variable Analysis Chapter A](build-ffmpeg/configure-var.md)**
+  - **[Configure Variable Analysis Final Chapter](build-ffmpeg/configure-var2.md)**
+  - **[Configure Logic Analysis Chapter A](build-ffmpeg/configure-logic.md)**
+  - **[Configure Logic Analysis Chapter D](build-ffmpeg/configure-logic4.md)**
+  - **[FFmpeg Compilation Parameter Analysis](build-ffmpeg/configure-args.md)**
+  - **[Makefile Syntax Summary](make-ffmpeg/make-syntax.md)**
+  - **[Makefile Logic Analysis](make-ffmpeg/make-logic.md)**
+- **[ffplay.c Source Code Analysis](ffplay/index.md)**: Deep dive into the _`ffplay`_ media player:
+  - **[Main Entry Function Analysis](ffplay/main.md)**
+  - **[stream_open Function Analysis](ffplay/stream_open.md)**
+  - **[read_thread Demuxing Thread Analysis](ffplay/read_thread.md)**
+  - **[stream_component_open Function Analysis](ffplay/stream_component_open.md)**
+  - **[FFplay Audio Filter Analysis](ffplay/configure_audio_filters.md)**
+  - **[audio_open Function Analysis](ffplay/audio_open.md)**
+  - **[audio_thread Audio Decoding Thread Analysis](ffplay/audio_thread.md)**
+  - **[decoder_decode_frame Decoding Function Analysis](ffplay/decoder_decode_frame.md)**
+  - **[FrameQueue Queue Source Code Analysis](ffplay/frame_queue.md)**
+  - **[FFplay Serial Number Source Code Analysis](ffplay/serial.md)**
+  - **[sdl_audio_callback Audio Playback Thread Analysis](ffplay/sdl_audio_callback.md)**
+  - **[audio_decode_frame Function Analysis](ffplay/audio_decode_frame.md)**
+  - **[video_thread Video Decoding Thread Analysis](ffplay/video_thread.md)**
+  - **[video_refresh Video Playback Thread Analysis](ffplay/video_refresh.md)**
+  - **[Basic Knowledge of Audio and Video Synchronization](ffplay/basic_sync.md)**
+  - **[FFplay Video Synchronization Analysis](ffplay/video_sync.md)**
+  - **[FFplay Audio Synchronization Analysis](ffplay/audio_sync.md)**
+  - **[FFplay External Clock Analysis](ffplay/external_sync.md)**
+  - **[FFplay Keyboard Function Introduction](ffplay/event_loop.md)**
+  - **[FFplay Jump to Time Point Playback](ffplay/jump.md)**
+  - **[FFplay Pause Analysis](ffplay/pause.md)**
+  - **[FFplay Frame-by-Frame Playback Explained](ffplay/step.md)**
+  - **[FFplay Playback Completion Analysis](ffplay/eof.md)**
+  - **[FFplay Exit Analysis](ffplay/exit.md)**
+  - **[How FFplay Parses Command Line Arguments](ffplay/parse_options.md)**
+  - **[FFplay Video Filter Analysis](ffplay/video_filter.md)**
+  - **[FFplay Hardware Decoding]()**: _TODO_
+  - **[FFplay Console Information Explained](ffplay/output_log.md)**
+- **[ffmpeg.c Source Code Analysis - Basic](ffmpeg/index.md)**: Demystifying the core of _FFmpeg_:
+  - **[Command Line Argument Parsing](ffmpeg/cmd_parse.md)**
+  - **[ffmpeg_parse_options Command Line Parsing](ffmpeg/ffmpeg_parse_options.md)**
+  - **[split_commandline Parsing Intermediate State](ffmpeg/split_commandline.md)**
+  - **[parse_optgroup Parsing Global Variables](ffmpeg/parse_optgroup.md)**
+  - **[open_files Opening Input and Output Files](ffmpeg/open_files.md)**
+  - **[InputFile Data Structure Analysis](ffmpeg/struct_inputfile.md)**
+  - **[open_input_file Opening Input File](ffmpeg/open_input_file.md)**
+  - **[InputStream Data Structure Analysis](ffmpeg/struct_inputstream.md)**
+  - **[add_input_stream Adding Input Stream](ffmpeg/add_input_stream.md)**
+  - **[OutputFile Data Structure Analysis](ffmpeg/struct_outputfile.md)**
+  - **[open_output_file Opening Output File](ffmpeg/open_output_file.md)**
+  - **[OutputStream Data Structure Analysis](ffmpeg/struct_outputstream.md)**
+  - **[new_video_stream Adding Video Output Stream](ffmpeg/new_video_stream.md)**
+  - **[init_simple_filtergraph Initializing Simple Filter Graph](ffmpeg/init_simple_filtergraph.md)**
+  - **[Summary of Command Line Argument Parsing](ffmpeg/cmd_parse_summary.md)**
+  - **[Differences in Command Line Parsing between FFmpeg and FFplay](ffmpeg/ffplay_vs_ffmpeg.md)**
+  - **[transcode_init Initialization Before Transcoding](ffmpeg/transcode_init.md)**
+  - **[transcode_step Main Transcoding Function](ffmpeg/transcode_step.md)**
+  - **[process_input Processing Input File](ffmpeg/process_input.md)**
+  - **[process_input_packet Decoding and Packaging](ffmpeg/process_input_packet.md)**
+  - **[decode_video Decoding Video Frame](ffmpeg/decode_video.md)**
+  - **[send_frame_to_filter Filter Processing](ffmpeg/send_frame_to_filter.md)**
+  - **[configure_filtergraph Configuring Filter Container](ffmpeg/configure_filtergraph.md)**
+  - **[decode_audio Decoding Audio Frame](ffmpeg/decode_audio.md)**
+  - **[Summary of FFmpeg Decoding Module](ffmpeg/decode_summary.md)**
+  - **[reap_filters Harvesting Filters](ffmpeg/reap_filters.md)**
+  - **[do_video_out Encoding and Packaging](ffmpeg/do_video_out.md)**
+  - **[init_output_stream Initializing Output Stream](ffmpeg/init_output_stream.md)**
+  - **[do_audio_out Encoding and Packaging](ffmpeg/do_audio_out.md)**
+  - **[Summary of FFmpeg Converter](ffmpeg/encode_summary.md)**
+  - **[FFmpeg Converter Transcoding Completion Analysis](ffmpeg/transcode_done.md)**
+- **[ffmpeg.c Source Code Analysis - Advanced](ffmpeg/index_advance.md)**: Deeper dive into **_`ffmpeg.c`_**:
+  - **[init_complex_filtergraph Initializing Complex Filter Graph](ffmpeg/init_complex_filtergraph.md)**
+  - **[FFmpeg Console Logging](ffmpeg/console_log.md)**
+  - **[Using debug_ts to Print PTS Throughout the Process](ffmpeg/debug_ts.md)**
+  - **[Multithreaded Input File Reading](ffmpeg/multi_thread.md)**
+  - **[Outputting Multiple Files with FFmpeg](ffmpeg/many_output_file.md)**
+  - **[How FFmpeg Adjusts Output Frame Rate](ffmpeg/change_framerate.md)**
+  - **[FFmpeg Variable Frame Rate to Constant Frame Rate Conversion](ffmpeg/vfr_to_cfr.md)**
+  - **[FFmpeg Forced Keyframe Analysis](ffmpeg/force_keyframe.md)**
+  - **[Signal Handling in FFmpeg](ffmpeg/signal.md)**
+  - **[FFmpeg Converter Easter Eggs](ffmpeg/surprised.md)**
+  - **[How Audio Streams are Discarded](ffmpeg/how_discard_audio.md)**
+  - **[prepare_app_arguments Function Analysis](ffmpeg/prepare_app_arguments.md)**
+- **[ffmpeg.c Source Code Analysis - Parameters](ffmpeg/cmd_arg.md)**: Understanding key _FFmpeg_ command-line arguments:
+  - **[-re Parameter Analysis](ffmpeg/cmd_arg_re.md)**
+  - **[-ac Parameter Analysis](ffmpeg/cmd_arg_ac.md)**
+  - **[-pix_fmt Parameter Analysis](ffmpeg/cmd_arg_pix_fmt.md)**
+  - **[-b:v Parameter Analysis](ffmpeg/cmd_arg_bv.md)**
+  - **[-t Parameter Analysis](ffmpeg/cmd_arg_t.md)**
+  - **[-vframes Parameter Analysis](ffmpeg/cmd_arg_vframes.md)**
+  - **[-ss Parameter Analysis](ffmpeg/cmd_arg_ss.md)**
+  - **[-vn Parameter Analysis](ffmpeg/cmd_arg_vn.md)**
+  - **[-an Parameter Analysis](ffmpeg/cmd_arg_an.md)**
+  - **[-output_ts_offset Parameter Analysis](ffmpeg/cmd_arg_output_ts_offset.md)**
+  - **[-d Debugging Parameter Analysis](ffmpeg/cmd_arg_d.md)**
+- **[FFmpeg Modification Tutorial](ffmpeg_customized/index.md)**: Customizing and extending _FFmpeg_ for specific needs:
+  - **[Secondary Development of ffmpeg.c](make-ffmpeg/make-x.md)**
+  - **[Packaging ffmpeg.c as a Static Library](ffmpeg_customized/ffmpeg_c_static.md)**
+  - **[Packaging ffmpeg.c as a Dynamic Library](ffmpeg_customized/ffmpeg_c_shared.md)**
+  - **[Customizing AVIO within ffmpeg.c](ffmpeg_customized/avio.md)**
+  - **[Preventing FFmpeg Version Conflicts - Linux](ffmpeg_customized/multi_version_linux.md)**
+  - **[Preventing FFmpeg Version Conflicts - Windows](ffmpeg_customized/multi_version_windows.md)**
+  - **[Generating ffmpeg.dll](make-ffmpeg/make-ffmpeg-dll.md)**
+- **[MP4 Demuxer Analysis](demuxer/index.md)**: Understanding how _FFmpeg_ reads _MP4_ files:
+  - **[Demuxer Architecture](demuxer/architecture.md)**
+  - **[avformat_open_input Opening Input](demuxer/avformat_open_input.md)**
+  - **[init_input Initializing Input](demuxer/init_input.md)**
+  - **[io_open Opening Input File](demuxer/io_open.md)**
+  - **[AVIOContext Principles](demuxer/avio_principle.md)**
+  - **[Commonly Used AVIO Functions](demuxer/avio_function.md)**
+  - **[FFmpeg's Endianness Functions](demuxer/bigendian.md)**
+  - **[mov_probe Detecting MP4 Format Part 1](demuxer/mov_probe.md)**
+  - **[mov_probe Detecting MP4 Format Part 2](demuxer/mov_probe2.md)**
+  - **[MOVContext Data Structure Analysis](demuxer/movcontext.md)**
+  - **[MOVStreamContext Data Structure Analysis](demuxer/movstreamcontext.md)**
+  - **[stsd Table Parsing](demuxer/stsd.md)**
+  - **[mov_read_header Parsing MP4 Header](demuxer/mov_read_header.md)**
+  - **[mov_read_trak Reading Track Data](demuxer/mov_read_trak.md)**
+  - **[avformat_open_input Analysis: Reading Encoder Information](demuxer/avformat_open_input2.md)**
+  - **[avformat_open_input Analysis: Reading File Duration](demuxer/avformat_open_input3.md)**
+  - **[avformat_open_input Analysis: Reading time_base](demuxer/avformat_open_input4.md)**
+  - **[avformat_new_stream Creating Data Streams](demuxer/avformat_new_stream.md)**
+  - **[avformat_find_stream_info Obtaining Stream Information](demuxer/avformat_find_stream_info_new.md)**
+  - **[avformat_find_stream_info Obtaining Stream Packet Buffer Information](demuxer/avformat_find_stream_info_internal_packet_buffer.md)**
+- **[av_read_frame Reading AVPacket](demuxer/av_read_frame.md)**
+  - **[read_frame_internal Reading AVPacket Analysis](demuxer/read_frame_internal.md)**
+  - **[compute_pkt_fields Function Analysis](demuxer/compute_pkt_fields.md)**
+  - **[ff_read_packet Reading AVPacket](demuxer/ff_read_packet.md)**
+  - **[mov_read_packet Reading AVPacket](demuxer/mov_read_packet.md)**
+  - **[mov_read_seek Jump Analysis](demuxer/mov_read_seek.md)**
+- **[FLV Demuxer Analysis](demuxer/flv.md)**: Understanding how _FFmpeg_ reads _FLV_ files:
+  - **[flv_probe Detecting FLV Format](demuxer/flv_probe.md)**
+  - **[FLVContext Data Structure Analysis](demuxer/flvcontext.md)**
+  - **[flv_read_header Parsing FLV Header](demuxer/flv_read_header.md)**
+  - **[avformat_find_stream_info Obtaining Stream Information: Setting Duration](demuxer/avformat_find_stream_info_duration.md)**
+  - **[flv_read_packet Reading AVPacket](demuxer/flv_read_packet.md)**
+  - **[flv_read_seek Jump Analysis](demuxer/flv_read_seek.md)**
+  - **[High-Performance Seek Principle in FLV](demuxer/flv_read_seek_good.md)**
+  - **[Supported Codecs in FLV](demuxer/flv_codecs.md)**
+- **[H264 Demuxer Analysis](demuxer/h264.md)**: Understanding how _FFmpeg_ reads _H.264_ streams:
+  - **[FFmpeg Pseudo Demuxing](demuxer/fake.md)**
+  - **[Simple Introduction to H.264 Format](demuxer/h264_format.md)**
+  - **[Analysis of H.264 Annex B Format](demuxer/h264_annexb.md)**
+  - **[Analysis of H.264 avcC Format](demuxer/h264_avcc.md)**
+  - **[h264_probe Detecting H.264 Format](demuxer/h264_probe.md)**
+  - **[ff_raw_video_read_header Reading Raw Video Stream Header](demuxer/ff_raw_video_read_header.md)**
+  - **[ff_raw_read_partial_packet Reading Partial Data](demuxer/ff_raw_read_partial_packet.md)**
+  - **[parse_packet Parsing Data Packet](demuxer/parse_packet.md)**
+  - **[Introduction to Parser Architecture](demuxer/parse_architecture.md)**
+  - **[h264_parser.c Introduction](demuxer/h264_parser.md)**
+  - **[h264_find_frame_end Source Code Analysis](demuxer/h264_find_frame_end.md)**
+  - **[parse_nal_units Source Code Analysis](demuxer/parse_nal_units.md)**
+- **[AAC Demuxer Analysis](demuxer/aac.md)**: Understanding how FFmpeg reads _AAC_ files:
+  - **[Analysis of AAC ADTS Format](demuxer/adts_format.md)**
+  - **[adts_aac_probe Detecting AAC Format](demuxer/adts_aac_probe.md)**
+  - **[adts_aac_read_header Reading Header](demuxer/adts_aac_read_header.md)**
+  - **[adts_aac_read_packet Reading ADTS Frames](demuxer/adts_aac_read_packet.md)**
+  - **[Introduction to aac_parser.c](demuxer/aac_parser.md)**
+  - **[Detailed Explanation of ff_aac_ac3_parse](demuxer/ff_aac_ac3_parse.md)**
+- **[Other Demuxer Analyses](demuxer/other.md)**: Exploring additional demuxer implementations:
+  - **[Introduction to Raw Video Demuxer](demuxer/rawvideo.md)**
+  - **[Introduction to Concat Demuxer](demuxer/concat.md)**
+  - **[Concat Demuxer Modification](demuxer/concat_custom.md)**
+  - **[How to Create a Custom Demuxer](demuxer/custom.md)**
+- **[Filter Principles](filter/index.md)**: Exploring the world of _FFmpeg_ filters:
+  - **[Overlay Filter Analysis](filter/overlay.md)**
+  - **[Chromakey Filter Analysis]()**: _TODO_
+  - **[Colorkey Filter Analysis]()**: _TODO_
+  - **[Concat Filter Analysis]()**: _TODO_
+  - **[Concat Filter Analysis]()**: _TODO_
+  - **[CUDA Filter Analysis](filter/cuda.md)**
+- **[How to Become an FFmpeg Developer](be_contributor.md)**: Contributing to the _FFmpeg_ project.
+- **[Closing Remarks](end.md)**: Final thoughts and conclusions.
+- **[FFmpeg Principles Book Cover](cover.md)**
