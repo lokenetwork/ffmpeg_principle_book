@@ -2,7 +2,6 @@
 
 - **[Introduction to FFmpeg Principles](README.md)**
 - **[Recommendations and Reader Reviews](good_comment.md)**
-- **[Purchasing the VIP Version of FFmpeg Principles](pdf-buy.md)**
 - **[Basic Audio and Video Knowledge](base-knowledge/base-knowledge.md)**: Fundamental concepts related to multimedia:
   - **[RGB Color Space](base-knowledge/raw-rgb.md)**: Explanation of the _RGB_ color model and its components.
   - **[YUV Color Space](base-knowledge/raw-yuv.md)**: Introduction to the _YUV_ color model and its applications in video.
